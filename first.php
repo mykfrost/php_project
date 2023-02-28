@@ -10,7 +10,7 @@
 
 <body>
 
-    <p>This is standard HTML</p>
+    <!-- <p>This is standard HTML</p>
     <?php
     echo 'This was generated using PHP';
     $file = $_SERVER["SCRIPT_FILENAME"];
@@ -29,7 +29,7 @@
 
     echo "<h2> I want to handle a form</h2>";
 
-    ?>
+    ?> -->
     <form action="handle_form.php" method="post">
         <fieldset>
             <legend>Enter Your Information in the form below</legend>
@@ -46,6 +46,7 @@
                     </select>
                 </label>
             </p>
+            <p><label>Comments : <textarea name="comments" rows="3" cols="40"></textarea></label></p>
         </fieldset>
         <p><input type="submit" name="submit" value="Submit My Informatation" /></p>
     </form>
